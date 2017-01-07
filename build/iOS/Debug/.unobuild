@@ -1,0 +1,4 @@
+$: -1372410840
+BuildCommand: build.sh
+RunCommand: run.sh
+Product: build/Release-iphoneos/FacebookLoginWeb.app/FacebookLoginWeb
