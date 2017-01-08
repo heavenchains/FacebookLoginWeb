@@ -1,3 +1,3 @@
 module.exports = {
-    client_id : "200427900363363"
+    client_id : "MyAppIDHere"
 };
