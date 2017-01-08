@@ -24,7 +24,7 @@ namespace Simulator{
 static void GeneratedApplication_build(uType* type)
 {
     ::STRINGS[0] = uString::Const("127.0.0.1");
-    ::STRINGS[1] = uString::Const("192.168.7.81");
+    ::STRINGS[1] = uString::Const("192.168.7.49");
     ::STRINGS[2] = uString::Const("/Users/mostafa/Desktop/FacebookLoginWeb/FacebookLoginWeb.unoproj");
     ::STRINGS[3] = uString::Const("FacebookLoginWeb");
     ::TYPES[0] = ::g::Uno::Net::IPEndPoint_typeof()->Array();
@@ -80,7 +80,7 @@ void GeneratedApplication__New3_fn(GeneratedApplication** __retval)
 void GeneratedApplication::ctor_4()
 {
     uStackFrame __("Outracks.Simulator.GeneratedApplication", ".ctor()");
-    ctor_3(uArray::Init< ::g::Uno::Net::IPEndPoint*>(::TYPES[0/*Uno.Net.IPEndPoint[]*/], 2, (::g::Uno::Net::IPEndPoint*)::g::Uno::Net::IPEndPoint::New1(::g::Uno::Net::IPAddress::Parse(::STRINGS[0/*"127.0.0.1"*/]), 12124), (::g::Uno::Net::IPEndPoint*)::g::Uno::Net::IPEndPoint::New1(::g::Uno::Net::IPAddress::Parse(::STRINGS[1/*"192.168.7.81"*/]), 12124)), ::STRINGS[2/*"/Users/most...*/], uDelegate::New(::TYPES[1/*Uno.Func<Uno.IO.Bundle>*/], (void*)GeneratedApplication__GetBundle_fn), uArray::Init<uString*>(::TYPES[2/*string[]*/], 0));
+    ctor_3(uArray::Init< ::g::Uno::Net::IPEndPoint*>(::TYPES[0/*Uno.Net.IPEndPoint[]*/], 2, (::g::Uno::Net::IPEndPoint*)::g::Uno::Net::IPEndPoint::New1(::g::Uno::Net::IPAddress::Parse(::STRINGS[0/*"127.0.0.1"*/]), 12124), (::g::Uno::Net::IPEndPoint*)::g::Uno::Net::IPEndPoint::New1(::g::Uno::Net::IPAddress::Parse(::STRINGS[1/*"192.168.7.49"*/]), 12124)), ::STRINGS[2/*"/Users/most...*/], uDelegate::New(::TYPES[1/*Uno.Func<Uno.IO.Bundle>*/], (void*)GeneratedApplication__GetBundle_fn), uArray::Init<uString*>(::TYPES[2/*string[]*/], 0));
     Reflection((uObject*)::g::Outracks::Simulator::Reflection::Native::NativeReflection::New1((uObject*)::g::Outracks::Simulator::Reflection::Native::SimpleTypeMap::New1()));
 }
 

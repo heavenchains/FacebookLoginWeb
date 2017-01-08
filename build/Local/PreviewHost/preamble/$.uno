@@ -208,7 +208,7 @@ public class GeneratedApplication
 : Outracks.Simulator.Application
 {
 public GeneratedApplication()
-: base(new [] {new Uno.Net.IPEndPoint(Uno.Net.IPAddress.Parse("127.0.0.1"), 12124), new Uno.Net.IPEndPoint(Uno.Net.IPAddress.Parse("192.168.7.81"), 12124)}, "/Users/mostafa/Desktop/FacebookLoginWeb/FacebookLoginWeb.unoproj", GetBundle, new string[] { ""})
+: base(new [] {new Uno.Net.IPEndPoint(Uno.Net.IPAddress.Parse("127.0.0.1"), 12124), new Uno.Net.IPEndPoint(Uno.Net.IPAddress.Parse("192.168.7.49"), 12124)}, "/Users/mostafa/Desktop/FacebookLoginWeb/FacebookLoginWeb.unoproj", GetBundle, new string[] { ""})
 {
 
 							if defined(CPLUSPLUS)
